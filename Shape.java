@@ -6,6 +6,9 @@ abstract class Shape {
         return shapeMatrix;
     }
 
+    public abstract void drawShape();
+    
+
     // Each subclass will provide its own implementation
     // of this method
    
