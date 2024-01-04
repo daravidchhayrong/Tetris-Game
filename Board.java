@@ -1,16 +1,7 @@
 public class Board {
 
-    // Print the matrix
-    static void printMatrix(char mat[][]) {
-        for (short row = 0; row < mat.length; row++) {
-            for (short col = 0; col < mat[0].length; col++) {
-                System.out.print(mat[row][col] + " ");
-            }
-            System.out.println();
-        }
-    }
 
-    // Fill the matrix with initial values
+
     static void initialFill(char mat[][]) {
         for (short row = 0; row < mat.length; row++) {
             for (short col = 0; col < mat[0].length; col++) {
@@ -22,6 +13,18 @@ public class Board {
             }
         }
     }
+    // Print the matrix
+    static void printMatrix(char mat[][]) {
+        for (short row = 0; row < mat.length; row++) {
+            for (short col = 0; col < mat[0].length; col++) {
+                System.out.print(mat[row][col] + " ");
+            }
+            System.out.println();
+        }
+    }
+
+    // Fill the matrix with initial values
+    
 
     // // Render the shape on the game board matrix
     // static void renderShape(char[][] matrix, char[][] shapeMatrix) {
