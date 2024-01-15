@@ -1,7 +1,5 @@
 public class Board {
 
-
-
     static void initialFill(char mat[][]) {
         for (short row = 0; row < mat.length; row++) {
             for (short col = 0; col < mat[0].length; col++) {
